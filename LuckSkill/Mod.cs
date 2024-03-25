@@ -97,6 +97,7 @@ namespace LuckSkill
             return new LuckSkillApi();
         }
 
+
         /// <summary>Get the available Luck professions.</summary>
         public IDictionary<int, IProfession> GetProfessions()
         {
